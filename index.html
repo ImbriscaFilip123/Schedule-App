@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tema 3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <section class="schedule">
+        <div class="schedule-title">
+            <h1>Event Schedules</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio reprehenderit ullam corporis soluta officiis maiores nesciunt repellendus nihil repellat voluptatem.</p>
+        </div>
+
+
+        <div class="schedule-days">
+            <div class="schedule-days-card">
+                <h2>Day 1</h2>
+                <p>23 Iunie 2020</p>
+            </div>
+            <div class="schedule-days-card">
+                <h2>Day 1</h2>
+                <p>23 Iunie 2020</p>
+            </div>
+            <div class="schedule-days-card">
+                <h2>Day 1</h2>
+                <p>23 Iunie 2020</p>
+            </div>
+        </div>
+
+         
+        <div class="schedule-add">
+            <h2>Adauga card</h2>
+            <div>
+                <label for="nume">Numele persoanei :</label>
+                <select id="nume" name="nume" class="nume">
+                    <option value="Costel">Costel</option>
+                    <option value="Adrian">Adrian</option>
+                    <option value="Emi">Emi</option>
+                    <option value="Florin">Florin</option>
+                    <option value="Patriciu">Patriciu</option>
+                    <option value="Alex">Alex</option>
+                </select>
+            </div>
+            <div>
+                <label for="ore">Alege un interval de timp:</label>
+                <select id="ore" name="ore" class="ore">
+                    <option value="11:00 - 12:00">11:00 - 12:00</option>
+                    <option value="12:00 - 13:00">12:00 - 13:00</option>
+                    <option value="13:00 - 14:00">13:00 - 14:00</option>
+                    <option value="14:00 - 15:00">14:00 - 15:00</option>
+                    <option value="15:00 - 16:00">15:00 - 16:00</option>
+                    <option value="16:00 - 17:00">16:00 - 17:00</option>
+                </select>
+            </div>
+            <div>
+                <label for="activitati">Alege o activitate:</label>
+                <select id="activitati" name="activitati" class="activitati">
+                    <option value="Management">Management</option>
+                    <option value="Apel de vânzări">Apel de vânzări</option>
+                    <option value="Ședință">Ședință</option>
+                    <option value="Call center">Call center</option>
+                    <option value="Office">Office</option>
+                    <option value="Proiect">Proiect</option>
+                </select>
+            </div>
+            <div>
+                <p>Descriere</p>
+                <textarea name="" id="" class="description" rows="6" cols="30"></textarea>
+            </div>
+        
+            <button class="addCard">Adauga</button>
+        </div>
+
+        <div class="schedule-content">
+            
+                <div class="schedule-card">
+                    <h6 class="schedule-card-time">8:00 - 12:00</h6>
+                    <h3>Apel de vanzari</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum vitae voluptates obcaecati perspiciatis ut fuga, enim odio quibusdam, libero id pariatur at voluptatibus cupiditate dignissimos, nulla necessitatibus beatae possimus error!</p>
+
+                    <p class="schedule-card-name" style="color: red;">Costel</p>
+                    <button class="editName">Edit name</button>
+                    <button class="remove">Remove card</button>
+                    <button class="editHour">Edit hour</button>
+                </div>
+                <div class="schedule-card">
+                    <h6 class="schedule-card-time">12:00 - 14:00</h6>
+                    <h3>Management</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum vitae voluptates obcaecati perspiciatis ut fuga, enim odio quibusdam, libero id pariatur at voluptatibus cupiditate dignissimos, nulla necessitatibus beatae possimus error!</p>
+
+                    <p class="schedule-card-name" style="color: green;">Adrian</p>
+                    <button class="editName">Edit name</button>
+                    <button class="remove">Remove card</button>
+                    <button class="editHour">Edit hour</button>
+                </div>
+                <div class="schedule-card">
+                    <h6 class="schedule-card-time">14:00 - 16:00</h6>
+                    <h3>Sedinta</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum vitae voluptates obcaecati perspiciatis ut fuga, enim odio quibusdam, libero id pariatur at voluptatibus cupiditate dignissimos, nulla necessitatibus beatae possimus error!</p>
+
+                    <p class="schedule-card-name" style="color: blue;">Emi</p>
+                    <button class="editName">Edit name</button>
+                    <button class="remove">Remove card</button>
+                    <button class="editHour">Edit hour</button>
+                </div>
+                <div class="schedule-card">
+                    <h6 class="schedule-card-time">16:00 - 17:00</h6>
+                    <h3>Proiect</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum vitae voluptates obcaecati perspiciatis ut fuga, enim odio quibusdam, libero id pariatur at voluptatibus cupiditate dignissimos, nulla necessitatibus beatae possimus error!</p>
+
+                    <p class="schedule-card-name" style="color: blueviolet;">Florin</p>
+                    <button class="editName">Edit name</button>
+                    <button class="remove">Remove card</button>
+                    <button class="editHour">Edit hour</button>
+                </div>
+                <div class="schedule-card">
+                    <h6 class="schedule-card-time">17:00 - 18:00</h6>
+                    <h3>Office</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum vitae voluptates obcaecati perspiciatis ut fuga, enim odio quibusdam, libero id pariatur at voluptatibus cupiditate dignissimos, nulla necessitatibus beatae possimus error!</p>
+
+                    <p class="schedule-card-name" style="color: rgb(175, 134, 81);">Patriciu</p>
+                    <button class="editName">Edit name</button>
+                    <button class="remove">Remove card</button>
+                    <button class="editHour">Edit hour</button>
+                </div>
+                <div class="schedule-card">
+                    <h6 class="schedule-card-time">18:00 - 20:00</h6>
+                    <h3>Call center</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum vitae voluptates obcaecati perspiciatis ut fuga, enim odio quibusdam, libero id pariatur at voluptatibus cupiditate dignissimos, nulla necessitatibus beatae possimus error!</p>
+
+                    <p class="schedule-card-name" style="color: fuchsia;">Alex</p>
+                    <button class="editName">Edit name</button>
+                    <button class="remove">Remove card</button>
+                    <button class="editHour">Edit hour</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
